@@ -1,0 +1,328 @@
+@font-face {
+    font-family:'Montserrat' ;
+    src: url('./font/Montserrat-Regular.ttf');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+      font-family:'Montserrat' ;
+    text-decoration: none;
+    list-style: none;
+       
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-1140{
+    width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.con-end{
+    justify-content: end;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.logo img{
+width: 175px;
+height: 76px;
+}
+
+.w-40 input{
+    width: 100%;
+    padding: 15px 12px 15px 55px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    transition: 0.5s;
+    position: relative;
+}
+
+.se-i i{
+    position: absolute;
+    z-index: 1;
+   top: 32px;
+   margin-left: 5px;
+   font-size: 20px;
+   padding: 10px;
+   background-color: #941B1E;
+   border-radius: 50px;
+   color: white;
+   
+    
+}
+
+.icon i{
+    font-size: 24px;
+    color: #941B1E;
+    
+}
+
+.content h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    
+}
+
+.content p{
+    font-size: 12px;
+    color: #666;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.p-12{
+    padding: 12px 0px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.w-40 input:hover{
+    border-color: #941B1E;
+    box-shadow: 0px 0px 5px #941B1E;
+}
+
+.w-40 input:focus{
+    border-color: #941B1E;
+    box-shadow: 0px 0px 5px #941B1E;
+
+}
+
+.border-bottom{
+    border-bottom: 1px solid #c9c9c9;
+    width: 100%;
+}
+
+.menu{
+    height: 75PX;
+      padding-left: 20px;
+}
+.menu ul li {
+    font-size: 18px;
+    color: #1D3467;
+    font-weight: bold;
+    padding: 10px 20px;
+    line-height: 60PX;
+  
+}
+
+.menu ul li a:hover{
+    color: #941B1E;
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #2c2c2c;
+  
+     margin-top: 0px;
+}
+
+.dropdown li {
+    line-height: 20PX !important;
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+}
+
+
+
+
+.b-sh{
+    box-shadow: 0px 1px 3px #000;
+}
+
+
+/* navbar end */
+
+
+/* fullstack hero start */
+
+.f-herobg{
+    background-image: url(./img/Service.png);
+    background-size: cover;
+    height: 321.5px;
+    padding: 0px 16px;
+  
+   
+}
+
+
+
+.textclass{
+   height: 67px;
+  align-items: center;
+position: absolute;
+      top: 45%;
+    left: 33%; 
+}
+
+
+.f-button h1{
+    color: #600b0d;
+    font-weight: 600;
+    font-size: 45px;
+     margin-bottom: 10px;
+}
+
+.f-button a{
+   font-size: 20px; 
+ 
+}
+
+.homebut{
+    margin-left: 100px;
+    color: #000;
+}
+
+
+/* fullstack hero end */
+
+/* fullstack second hero start */
+
+
+.t-head1{
+    color: #1d3467;
+    margin-top: 60px;
+  
+}
+
+.t-head{
+  color: #9e1013;
+
+}
+
+.t-head span{
+    color: #600b0d;
+    border-bottom: 2px solid blue;
+      padding-bottom: 3px;
+   
+}
+
+.f-sabout{
+    margin-top: 40px;
+   
+}
+
+.f-sabout h3{
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.aboutborder{
+    border: 1px solid rgba(0, 0, 0, 0.174);
+   
+}
+
+
+
+/* fullstack second hero start */
+
+
+
+/* footer section :start */
+
+.f-bg{
+    margin-top: 40px;
+    background-color: #F3F3F4;
+}
+
+.foot-con {
+    margin: 60px 50px;
+}
+
+.foot-1 img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.foot-1 p {
+    margin-top: 20px;
+    color: #555;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.foot-1 h4 {
+    color: #600b0d;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.foot-2 h3 {
+    color: #600b0d;
+    font-size: 24px;
+    margin: 0px 0px 24px;
+    font-weight: bold !important;
+}
+
+.foot-2 ul li a {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px !important;
+    display: block;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.foot-2 ul li a:hover,
+.foot-2 ul i:hover {
+    color: #600b0d;
+    font-weight: bold !important;
+}
+
+/* footer section :end */
+
+/* sec foooter :start */
+
+.bg-sec-color {
+    background: #1d3467;
+    height: 70px;
+    color: white;
+}
+
+.foot-end-con p {
+    font-size: 16px;
+   
+    display: flex;
+    justify-content: center !important;
+    padding-top: 25px;
+    word-spacing: 2px;
+}
+
+.foot-end {
+    font-weight: bold;
+}
