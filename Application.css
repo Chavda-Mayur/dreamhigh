@@ -123,7 +123,7 @@ height: 76px;
 
 .menu{
     height: 75PX;
-      padding-left: 20px;
+     
 }
 .menu ul li {
     font-size: 18px;
@@ -177,14 +177,20 @@ height: 76px;
    
 }
 
+.content-center-t{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
 
+.f-button{
+    margin-top: 8%;
+}
 
 .textclass{
    height: 67px;
-  align-items: center;
-position: absolute;
-    top: 45%;
-    left: 33%; 
+  
 }
 
 
@@ -201,12 +207,79 @@ position: absolute;
 }
 
 .homebut{
-    margin-left: 100px;
+   
     color: #000;
 }
 
 
 /* fullstack hero end */
+
+
+/* student said sart */
+
+.stu-said{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.shedow{
+    padding: 24px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.shedow:hover{
+  box-shadow: 1px 1px 1px  black;
+}
+.said1 img{
+    width: 48px;
+    height: 48px;
+ 
+}
+.stu-said-about{
+     margin-left: 20px;
+}
+
+.stu-said-about a{
+   text-align: center;
+   line-height: 38px;
+    color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   
+  
+}
+
+.stu-said-about p span{
+   margin-left: 130px;
+   line-height: 38px;
+}
+
+p a:hover{
+  color: #1D3467;
+}
+
+.stu-message{
+    margin-top: 20px;
+}
+
+.stu-message p{
+    border-bottom: 1px solid #2c2c2c;
+    padding-bottom:20px;
+}
+.google {
+    margin-top: 10px;
+}
+
+.google span{
+  background-color: rgb(54, 54, 147);
+  color: white;
+  padding: 1px 2px ;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* student said end */
 
 /* fullstack second hero start */
 
